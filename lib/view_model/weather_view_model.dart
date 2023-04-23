@@ -11,7 +11,6 @@ class WeatherViewModel extends ChangeNotifier{
   double lat = 0.0;
   double long = 0.0;
   var isLoading = false;
-  var temp = 0.0;
 
   Future<void> getLatLong(String cityName) async {
     isLoading = true;
