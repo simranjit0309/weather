@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 
 
 class PostService {
-  static const apiKey = "daffc7db4005c28906f1e2d6667c6ec3";
+  static const apiKey = "open_weather_api_key";
 
   Future<dynamic> getLatLong(String cityName) async {
     var responseJson;
